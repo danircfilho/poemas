@@ -1,0 +1,282 @@
+/*ZERAR*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #c7c4bb;
+}
+
+body a {
+  text-decoration: none;
+}
+
+/*FONTES*/
+@font-face {
+  font-family: fonte1;
+  src: url(../fonts/DancingScript-Bold.ttf);
+}
+
+@font-face {
+  font-family: fonte2;
+  src: url(../fonts/AlexBrush-Regular.ttf);
+}
+
+@font-face {
+  font-family: fonte3;
+  src: url(../fonts/Nunito-Regular.ttf);
+}
+
+/*HEADER*/
+@media screen and (max-width: 850px) {
+  .endereco,
+  .menu-titulo,
+  .footer-bkg {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 200px) {
+  .endereco {
+    font-size: 15px;
+  }
+  .titulo {
+    font-size: 35px !important;
+  }
+  .menu-itens {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 200px) {
+  .img-icon {
+    height: 30px;
+    padding-bottom: 30px;
+  }
+  .texto-footer {
+    font-size: 100% !important;
+  }
+}
+
+.banner-sup1 {
+  background: #025259;
+  width: 100%;
+}
+
+.endereco {
+  max-width: 920px;
+  height: 45px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  background: #025259;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #57898a;
+}
+
+.endereco a {
+  color: #57898a;
+}
+
+.endereco a:hover {
+  color: #a2a719;
+}
+
+.banner-sup2 {
+  background: #57898a;
+  width: 100%;
+}
+
+.menu-titulo {
+  max-width: 920px;
+  height: 75px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  background: #57898a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo {
+  font-family: "fonte2", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #025259;
+}
+
+.menu-itens {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  font-family: "fonte2", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.menu-itens li + li {
+  padding-left: 30px;
+}
+
+.menu-itens a {
+  color: #025259;
+  font-weight: bold;
+}
+
+.menu-itens a:hover {
+  color: #012c30;
+}
+
+.banner-img {
+  background: url(../img/banner.jpg) no-repeat center;
+  background-size: cover;
+  height: 380px;
+  border-bottom: 5px solid #025259;
+}
+
+.banner-texto {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 70px;
+  font-family: "fonte1", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #0b363a;
+  text-align: center;
+}
+
+.banner-texto cite {
+  font-size: 20px;
+}
+
+.banner-img p::before,
+.banner-img p::after {
+  display: block;
+  content: "";
+  background: #0b363a;
+  width: 130px;
+  height: 3px;
+  margin: 15px auto;
+}
+
+/*MAIN*/
+.main {
+  max-width: 960px;
+  margin: 30px auto;
+  padding: 60px;
+  background: #adbcb7;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "fonte1", Arial, Helvetica, sans-serif;
+  color: #0b363a;
+  font-size: 30px;
+  text-align: justify;
+  border: 10px solid #0b363a;
+  border-style: double;
+}
+
+.main cite {
+  font-size: 25px;
+}
+
+/*SECTION*/
+.section {
+  width: 100%;
+}
+
+.poema {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.poema-1,
+.poema-2,
+.poema-3 {
+  flex: 1;
+
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "fonte3", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  color: #0b363a;
+  padding: 0 10px;
+}
+
+cite {
+  font-size: 20px;
+}
+
+.poema-1::before,
+.poema-1::after {
+  display: block;
+  content: "";
+  background: #0b363a;
+  width: 130px;
+  height: 4px;
+  margin: 15px auto;
+}
+
+.poema-2::before,
+.poema-2::after {
+  display: block;
+  content: "";
+  background: #025259;
+  width: 130px;
+  height: 4px;
+  margin: 15px auto;
+}
+.poema-3::before,
+.poema-3::after {
+  display: block;
+  content: "";
+  background: #7b8d87;
+  width: 130px;
+  height: 4px;
+  margin: 15px auto;
+}
+
+.img-poesia {
+  margin-top: 20px;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.voltar {
+  display: flex;
+  margin: 0 auto;
+  padding: 50px 10px;
+  justify-content: center;
+}
+
+/*FOOTER*/
+.footer {
+  width: 100%;
+  background: #0b363a;
+  border-top: 4px solid #57898a;
+}
+
+.footer-bkg {
+  max-width: 920px;
+  padding: 0 20px 0 20px;
+  height: 90px;
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texto-footer {
+  font-family: "fonte3", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #57898a;
+  padding-bottom: 10px;
+}
+
+.icon-footer a + a {
+  padding-left: 20px;
+}
