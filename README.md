@@ -12,7 +12,7 @@
 Este foi o meu primeiro projeto front-end para treinar os conceitos responsivos do CSS flexbox!
 
 ## Clique abaixo e veja este site
-primeiropoema.netlify.app
+https://primeiropoema.netlify.app
 
 Copyrigth (c) 2021 - Daniel Rodrigues de Carvalho Filho
 
