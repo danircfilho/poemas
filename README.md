@@ -5,7 +5,10 @@
 - HTML
 - CSS
 - Javascript
+- JQuery
 
 ## Descrição
 
-Neste projeto são utilizados os conceitos responsivos do CSS flexbox.
+Este foi o meu primeiro projeto front-end para treinar os conceitos responsivos do CSS flexbox!
+
+## Clique abaixo e veja este site
